@@ -1,0 +1,13 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    // padding: 2em 23em;
+    margin: 0px;
+    background: lightgray;
+    height: 100%;
+}
+
+.mat-input-infix {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

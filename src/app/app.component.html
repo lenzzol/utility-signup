@@ -1,0 +1,44 @@
+<md-toolbar color="primary">
+    <span>Utility Signup</span>
+    <span class="example-spacer"></span>
+    <button md-button [mdMenuTriggerFor]="appMenu"><md-icon>menu</md-icon> Menu</button>
+</md-toolbar>
+
+<md-menu #appMenu="mdMenu">
+    <button md-menu-item> Settings </button>
+    <button md-menu-item> Help </button>
+</md-menu>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.serviceAddress.address" placeholder="Address" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.serviceAddress.city" placeholder="City" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.serviceAddress.state" placeholder="State" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.serviceAddress.zip" placeholder="Zip" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.resident.firstName" placeholder="First Name" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.resident.lastName" placeholder="Last Name" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.resident.phone" placeholder="Phone" type="tel">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="newEnrollment.resident.email" placeholder="Email" type="email">
+</md-input-container>
+<pre>{{newEnrollment | json}}</pre>
+<router-outlet></router-outlet>
