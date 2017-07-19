@@ -40,5 +40,8 @@
 <md-input-container>
   <input mdInput [(ngModel)]="newEnrollment.resident.email" placeholder="Email" type="email">
 </md-input-container>
+
+<button (click)="enroll()" md-raised-button>Submit</button>
+
 <pre>{{newEnrollment | json}}</pre>
 <router-outlet></router-outlet>

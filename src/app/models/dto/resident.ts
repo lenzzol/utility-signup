@@ -3,4 +3,5 @@ export class Resident {
     lastName: string;
     email: string;
     phone: number;
+    ssn: number;
 }

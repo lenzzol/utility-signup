@@ -1,3 +1,5 @@
+import {Property} from './property';
+
 export class ServiceAddress {
     serviceId: number;
     acnId: number;

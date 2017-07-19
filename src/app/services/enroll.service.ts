@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http, Response, RequestOptions } from '@angular/http';
+import { Http, Response, RequestOptions, RequestOptionsArgs } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
@@ -8,19 +8,25 @@ import { Enrollment } from '../models/dto/enrollment';
 @Injectable()
 export class EnrollService {
 
-  private enrollUrl = '/api/enroll';
+  private enrollUrl = 'http://localhost:5000/api/enrollment';
 
   constructor(private http: Http) { }
 
   createEnrollment(enrollment: Enrollment): Observable<Enrollment> {
-    return this.http.post(this.enrollUrl, enrollment)
+    let header = new Headers({ 'Content-Type': 'application/json' });
+    
+    return this.http.post(this.enrollUrl, enrollment, <RequestOptionsArgs>{ headers: header })
                   .map(this.extractData)
                   .catch(this.handleError);
   }
-  
+
+  getData() : Observable<any> {
+    return this.http.get("assets/property-list.json").map(this.extractData).catch(this.handleError);
+  }
+
   private extractData(res: Response) {
     let body = res.json();
-    return body.data || { };
+    return body || { };
   }
  
   private handleError (error: Response | any) {
