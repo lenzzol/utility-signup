@@ -1,55 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-import { Enrollment } from './models/dto/enrollment';
-import { Resident } from './models/dto/resident';
-import { ServiceAddress } from './models/dto/service-address';
-import { EnrollService } from './services/enroll.service';
+import { User } from './models/dto/user';
+import { SecurityService } from './services/security.service';
+import { DataService } from './services/data.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `<router-outlet></router-outlet>`,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  //myData: Array<any>;
-  newEnrollment: Enrollment;
-  errorMessage: string;
 
-  constructor(private enrollService: EnrollService) {
-    // this.http.get('https://jsonplaceholder.typicode.com/photos')
-    //   .subscribe(response => this.myData = response.json())
-    this.newEnrollment = new Enrollment();
-    this.newEnrollment.serviceAddress.acnId = 0;
-    this.newEnrollment.serviceAddress.serviceId = 0;
+  constructor(private securityService: SecurityService, private dataService: DataService, private router: Router) {
   }
 
-  enroll() :void {
-    this.enrollService.createEnrollment(this.newEnrollment)
-      .subscribe(
-        enrollRecord  => this.confirmEnrolled(enrollRecord),
-        error =>  this.onError(<any>error));
+  ngOnInit() {
+    let user = this.securityService.getUser();
+    this.dataService.init();
 
-    
-  }
-
-  confirmEnrolled(completedEnrollment: Enrollment) :void {
-    console.log(completedEnrollment);
-    alert("enrolled!");
-  }
-
-  confirmDataReceived(data: any) : void{
-    console.log(data);
-  }
-
-  onError(error: any){
-
-  }
-
-  ngOnInit(){
-    this.enrollService.getData()
-        .subscribe(
-          propData => this.confirmDataReceived(propData),
-          error => this.onError(<any>error)
-        );
+    if (user){
+      this.router.navigate(["app"]);
+    }
+    else {
+      this.router.navigate(["login"]);
+    }
   }
 }

@@ -1,0 +1,29 @@
+[
+    {
+        "acnId": 10002,
+        "name": "Jane Smith",
+        "email": "utilitysignupproperty@mailinator.com",
+        "roleId": 2,
+        "password": "property"
+    },
+    {
+        "acnId": 10003,
+        "name": "John Doe",
+        "email": "jdoethestation@mailinator.com",
+        "roleId": 2,
+        "password": "property"
+    },
+    {
+        "acnId": 10004,
+        "name": "Frank Doe",
+        "email": "fdoetheenclave@mailinator.com",
+        "roleId": 2,
+        "password": "property"
+    },
+    {
+        "name": "Madeline Smith",
+        "email": "csreputilitysignup@mailinator.com",
+        "roleId": 1,
+        "password": "admin"
+    }
+]

@@ -1,0 +1,73 @@
+<md-toolbar color="primary">
+    <span>Utility Signup</span>
+    <span class="example-spacer"></span>
+    <button md-button [mdMenuTriggerFor]="appMenu"><md-icon>menu</md-icon> Menu</button>
+</md-toolbar>
+
+<md-menu #appMenu="mdMenu">
+    <button md-menu-item> Logout </button>
+    <button md-menu-item> Help </button>
+</md-menu>
+<md-tab-group>
+    <md-tab label="Resident Information">
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.resident.firstName" placeholder="First Name" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.resident.lastName" placeholder="Last Name" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.resident.phone" placeholder="Phone" type="number">
+        </md-input-container>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.resident.email" placeholder="Email" type="email">
+        </md-input-container>
+    </md-tab>
+    <md-tab label="Service Address">
+        <!-- <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.serviceAddress.address" placeholder="Address" type="text">
+        </md-input-container> -->
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.serviceAddress" [mdAutocomplete]="auto" [formControl]="addressCtrl" placeholder="Service Address">
+        </md-input-container>
+
+        <md-autocomplete #auto="mdAutocomplete" [displayWith]="displayAddressName">
+            <md-option *ngFor="let premise of filteredPremises | async" [value]="premise">
+                {{ premise.address }}
+            </md-option>
+        </md-autocomplete>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.serviceAddress.city" placeholder="City" type="text" disabled>
+        </md-input-container>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.serviceAddress.state" placeholder="State" type="text" disabled>
+        </md-input-container>
+
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.serviceAddress.zip" placeholder="Zip" type="number" disabled>
+        </md-input-container>
+        <md-input-container>
+
+            <input mdInput [mdDatepicker]="picker" [(ngModel)]="newEnrollment.desiredStart" placeholder="Desired Start Date">
+            <button mdSuffix [mdDatepickerToggle]="picker"></button>
+
+            <md-datepicker #picker></md-datepicker>
+        </md-input-container>
+    </md-tab>
+    <md-tab label="Authorization">
+        <h4>A credit check is required to determine if a deposit is required. Please enter your SSN below:</h4>
+        <md-input-container>
+            <input mdInput [(ngModel)]="newEnrollment.resident.ssn" placeholder="SSN" type="number">
+        </md-input-container>
+        <button (click)="confirmEnrollment()" md-raised-button>Submit</button>
+    </md-tab>
+</md-tab-group>
+
+<pre>{{newEnrollment | json}}</pre>
+<router-outlet></router-outlet>

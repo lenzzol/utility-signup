@@ -1,0 +1,722 @@
+[
+ {
+   "acnId": 10002,
+   "serviceId": 1000001,
+   "address": "100 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000002,
+   "address": "101 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000003,
+   "address": "102 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000004,
+   "address": "103 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000005,
+   "address": "104 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000006,
+   "address": "105 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000007,
+   "address": "106 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000008,
+   "address": "107 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000009,
+   "address": "108 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000010,
+   "address": "109 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000011,
+   "address": "110 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000012,
+   "address": "111 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000013,
+   "address": "112 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000014,
+   "address": "113 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000015,
+   "address": "114 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000016,
+   "address": "115 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000017,
+   "address": "116 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000018,
+   "address": "117 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000019,
+   "address": "118 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000020,
+   "address": "119 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000021,
+   "address": "120 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000022,
+   "address": "121 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000023,
+   "address": "122 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000024,
+   "address": "123 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000025,
+   "address": "124 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000026,
+   "address": "125 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000027,
+   "address": "126 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000028,
+   "address": "127 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000029,
+   "address": "128 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000030,
+   "address": "129 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10002,
+   "serviceId": 1000031,
+   "address": "130 RESIDENCES DR",
+   "city": "SUWANEE",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000430,
+   "address": "435 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000431,
+   "address": "436 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000432,
+   "address": "437 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000433,
+   "address": "438 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000434,
+   "address": "439 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000435,
+   "address": "440 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000436,
+   "address": "441 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000437,
+   "address": "442 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000438,
+   "address": "443 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000439,
+   "address": "444 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000440,
+   "address": "445 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000441,
+   "address": "446 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000442,
+   "address": "447 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000443,
+   "address": "448 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000444,
+   "address": "449 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000445,
+   "address": "450 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000446,
+   "address": "451 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000447,
+   "address": "452 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000448,
+   "address": "453 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000449,
+   "address": "454 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000450,
+   "address": "455 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000451,
+   "address": "456 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000452,
+   "address": "457 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000453,
+   "address": "458 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000454,
+   "address": "459 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000455,
+   "address": "460 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000456,
+   "address": "461 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000457,
+   "address": "462 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10003,
+   "serviceId": 2000458,
+   "address": "463 STATION DR",
+   "city": "ROSWELL",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000651,
+   "address": "785 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30022
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000652,
+   "address": "786 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30023
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000653,
+   "address": "787 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30024
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000654,
+   "address": "788 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30025
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000655,
+   "address": "789 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30026
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000656,
+   "address": "790 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30027
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000657,
+   "address": "791 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30028
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000658,
+   "address": "792 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30029
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000659,
+   "address": "793 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30030
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000660,
+   "address": "794 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30031
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000661,
+   "address": "795 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30032
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000662,
+   "address": "796 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30033
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000663,
+   "address": "797 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30034
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000664,
+   "address": "798 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30035
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000665,
+   "address": "799 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30036
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000666,
+   "address": "800 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30037
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000667,
+   "address": "801 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30038
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000668,
+   "address": "802 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30039
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000669,
+   "address": "803 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30040
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000670,
+   "address": "804 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30041
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000671,
+   "address": "805 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30042
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000672,
+   "address": "806 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30043
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000673,
+   "address": "807 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30044
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000674,
+   "address": "808 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30045
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000675,
+   "address": "809 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30046
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000676,
+   "address": "810 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30047
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000677,
+   "address": "811 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30048
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000678,
+   "address": "812 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30049
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000679,
+   "address": "813 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30050
+ },
+ {
+   "acnId": 10004,
+   "serviceId": 3000680,
+   "address": "814 MAIN ST",
+   "city": "ALPHARETTA",
+   "state": "GA",
+   "zip": 30051
+ }
+]

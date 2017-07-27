@@ -1,0 +1,8 @@
+<md-input-container>
+  <input mdInput [(ngModel)]="username" placeholder="Username" type="text">
+</md-input-container>
+
+<md-input-container>
+  <input mdInput [(ngModel)]="password" placeholder="Password" type="password">
+</md-input-container>
+<button (click)="authenticate()" md-raised-button>Login</button>  

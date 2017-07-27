@@ -1,6 +1,6 @@
 export class Property {
     acnId: number;
-    name; string;
+    name: string;
     phone: number;
     promoCode: string;
 }
